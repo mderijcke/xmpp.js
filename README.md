@@ -1,5 +1,7 @@
 # xmpp.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xmppjs/xmpp.js.svg)](https://greenkeeper.io/)
+
 XMPP for JavaScript.
 
 [![build status](https://img.shields.io/travis/xmppjs/xmpp.js/master.svg?maxAge=2592000&style=flat-square)](https://travis-ci.org/xmppjs/xmpp.js/branches)
