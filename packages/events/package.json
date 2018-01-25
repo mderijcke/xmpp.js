@@ -6,9 +6,18 @@
   "bugs": "http://github.com/xmppjs/xmpp.js/issues",
   "version": "0.3.0",
   "license": "ISC",
-  "keywords": ["event", "events", "promise", "EventEmitter"],
+  "keywords": [
+    "event",
+    "events",
+    "promise",
+    "EventEmitter"
+  ],
   "engines": {
     "node": ">= 7.6.0",
     "npm": ">= 2"
+  },
+  "dependencies": {
+    "any-observable": "^0.2.0",
+    "zen-observable": "^0.7.1"
   }
 }
