@@ -3,7 +3,7 @@
 const {timeout, EventEmitter, promise} = require('@xmpp/events')
 const jid = require('@xmpp/jid')
 const xml = require('@xmpp/xml')
-const URL = global.URL || require('url').URL
+const URL = global.URL || require('url').URL // eslint-disable-line node/no-unsupported-features/node-builtins
 
 const NS_STREAM = 'urn:ietf:params:xml:ns:xmpp-streams'
 

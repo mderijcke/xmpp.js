@@ -33,10 +33,12 @@ rules:
   prefer-spread: [error]
   prefer-destructuring: [error]
   # node https://github.com/mysticatea/eslint-plugin-node
-  node/no-unsupported-features: [error, {version: 7.6}]
   node/no-unpublished-require: 0 # doesn't play nice with monorepo
   node/no-extraneous-require: [error, allowModules: [ava, sinon, "@xmpp/test"]]
+  node/no-unsupported-features/es-syntax: [error]
+  node/no-unsupported-features/es-builtins: [error]
   # standard https://github.com/xjamundx/eslint-plugin-standard
   standard/no-callback-literal: [error, [cb, callback]]
   # unicorn https://github.com/sindresorhus/eslint-plugin-unicorn
   unicorn/filename-case: 0
+  unicorn/catch-error-name: [2, {name: "err"}]
