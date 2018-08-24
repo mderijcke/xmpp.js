@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@xmpp/xml": "^0.3.0",
-    "node-fetch": "^2.1.2"
+    "node-fetch": "^2.2.0"
   },
   "engines": {
     "node": ">= 7.6.0",
